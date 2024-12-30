@@ -60,16 +60,12 @@ public class MedianOfTwoSortedArrays
         }
 
         int length = merged.Count;
+        int index = length / 2;
 
         if (length % 2 == 0)
         {
-            int rightIndex = length / 2;
-            int leftIndex = rightIndex - 1;
-
-            return (merged[leftIndex] + merged[rightIndex]) / 2;
+            return (merged[index] + merged[index - 1]) / 2;
         }
-
-        int index = length / 2;
 
         return merged[index];
     }
