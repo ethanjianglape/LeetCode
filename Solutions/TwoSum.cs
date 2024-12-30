@@ -1,4 +1,4 @@
-﻿/*
+﻿/**
  * This file is part of the LeetCode project.
  *  Copyright (C) 2024 Ethan Jiang-Lape
  *
@@ -16,13 +16,13 @@
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-// https://leetcode.com/problems/two-sum/description/
+// https://leetcode.com/problems/two-sum/
 
 namespace LeetCode.Solutions;
 
-public class Solution
+public class TwoSum
 {
-    public int[] TwoSum(int[] nums, int target)
+    public int[] Solution(int[] nums, int target)
     {
         ArgumentNullException.ThrowIfNull(nums);
         ArgumentOutOfRangeException.ThrowIfLessThan(nums.Length, 2);
