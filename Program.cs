@@ -1,4 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCode.Solutions;
 
-ReverseInteger.Reverse(1534236469);
+StringToInteger.MyAtoi("  -0012a42");
